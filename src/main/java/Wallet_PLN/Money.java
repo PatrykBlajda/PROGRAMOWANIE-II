@@ -11,10 +11,12 @@ public class Money {
     }
 
     public void addMoney(BigDecimal cash) {
+
         this.money = this.money.add(cash);
     }
 
     public void subtractMoney(BigDecimal cash) {
+
         this.money = this.money.subtract(cash);
     }
 
